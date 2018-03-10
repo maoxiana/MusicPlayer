@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DEB8B2BB46CD1026EDF3EE1 /* Pods_player.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EE06956969F24B80431825 /* Pods_player.framework */; };
 		C41DBFED2031EB710056334D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DBFEC2031EB710056334D /* AppDelegate.swift */; };
 		C41DBFEF2031EB710056334D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DBFEE2031EB710056334D /* ViewController.swift */; };
 		C41DBFF22031EB710056334D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41DBFF02031EB710056334D /* Main.storyboard */; };
@@ -14,6 +15,19 @@
 		C41DBFF72031EB710056334D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41DBFF52031EB710056334D /* LaunchScreen.storyboard */; };
 		C41DC0022031EB710056334D /* playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DC0012031EB710056334D /* playerTests.swift */; };
 		C41DC00D2031EB710056334D /* playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41DC00C2031EB710056334D /* playerUITests.swift */; };
+		C4248E9E204EC60A00615C10 /* Green Light.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C4248E9D204EC60A00615C10 /* Green Light.mp3 */; };
+		C446D987203C61A500BA7B33 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C446D986203C61A500BA7B33 /* LoadingViewController.swift */; };
+		C45B139E203B10ED00417021 /* newCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B139D203B10ED00417021 /* newCell.swift */; };
+		C45CF1F02050220F00C1E9C6 /* song.lrc in Resources */ = {isa = PBXBuildFile; fileRef = C45CF1EF2050220F00C1E9C6 /* song.lrc */; };
+		C45CF23020515BCC00C1E9C6 /* MusicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CF22F20515BCC00C1E9C6 /* MusicListViewController.swift */; };
+		C460FCBB204D777400146467 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C460FCBA204D777400146467 /* MusicViewController.swift */; };
+		C484F2C02035C586001B8C45 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484F2BF2035C586001B8C45 /* PageViewController.swift */; };
+		C484F2C62035E29C001B8C45 /* pvMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C484F2C52035E29C001B8C45 /* pvMessageController.swift */; };
+		C4AC17132052786C009FB1F9 /* MusicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC17122052786C009FB1F9 /* MusicInfoModel.swift */; };
+		C4AC17152052C63A009FB1F9 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC17142052C63A009FB1F9 /* MusicTableViewCell.swift */; };
+		C4D8F94B2037267F00B336C2 /* pvPersonalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D8F94A2037267F00B336C2 /* pvPersonalController.swift */; };
+		C4D8F94D2037279000B336C2 /* pvActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D8F94C2037279000B336C2 /* pvActivityController.swift */; };
+		C4D8F94F203727C400B336C2 /* pvMusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D8F94E203727C400B336C2 /* pvMusicController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69EE06956969F24B80431825 /* Pods_player.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_player.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41DBFE92031EB710056334D /* player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41DBFEC2031EB710056334D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C41DBFEE2031EB710056334D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,21 @@
 		C41DC0082031EB710056334D /* playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = playerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41DC00C2031EB710056334D /* playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerUITests.swift; sourceTree = "<group>"; };
 		C41DC00E2031EB710056334D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4248E9D204EC60A00615C10 /* Green Light.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Green Light.mp3"; path = "../../../../../Green Light.mp3"; sourceTree = "<group>"; };
+		C446D986203C61A500BA7B33 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		C45B139D203B10ED00417021 /* newCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newCell.swift; sourceTree = "<group>"; };
+		C45CF1EF2050220F00C1E9C6 /* song.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = song.lrc; path = ../../../../../song.lrc; sourceTree = "<group>"; };
+		C45CF22F20515BCC00C1E9C6 /* MusicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewController.swift; sourceTree = "<group>"; };
+		C460FCBA204D777400146467 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		C484F2BF2035C586001B8C45 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C484F2C52035E29C001B8C45 /* pvMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pvMessageController.swift; sourceTree = "<group>"; };
+		C4AC17122052786C009FB1F9 /* MusicInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicInfoModel.swift; sourceTree = "<group>"; };
+		C4AC17142052C63A009FB1F9 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		C4D8F94A2037267F00B336C2 /* pvPersonalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pvPersonalController.swift; sourceTree = "<group>"; };
+		C4D8F94C2037279000B336C2 /* pvActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pvActivityController.swift; sourceTree = "<group>"; };
+		C4D8F94E203727C400B336C2 /* pvMusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pvMusicController.swift; sourceTree = "<group>"; };
+		C9D253AFFD67936BC1602935 /* Pods-player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-player.release.xcconfig"; path = "Pods/Target Support Files/Pods-player/Pods-player.release.xcconfig"; sourceTree = "<group>"; };
+		FA9E1E9C80EA02CD22AE1345 /* Pods-player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-player/Pods-player.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DEB8B2BB46CD1026EDF3EE1 /* Pods_player.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +105,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10C83C963E47B99066674958 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69EE06956969F24B80431825 /* Pods_player.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F3B76005DEE1CD12ABB1062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA9E1E9C80EA02CD22AE1345 /* Pods-player.debug.xcconfig */,
+				C9D253AFFD67936BC1602935 /* Pods-player.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C41DBFE02031EB710056334D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,8 @@
 				C41DC0002031EB710056334D /* playerTests */,
 				C41DC00B2031EB710056334D /* playerUITests */,
 				C41DBFEA2031EB710056334D /* Products */,
+				3F3B76005DEE1CD12ABB1062 /* Pods */,
+				10C83C963E47B99066674958 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +147,18 @@
 		C41DBFEB2031EB710056334D /* player */ = {
 			isa = PBXGroup;
 			children = (
+				C45CF1EF2050220F00C1E9C6 /* song.lrc */,
+				C4248E9D204EC60A00615C10 /* Green Light.mp3 */,
 				C41DBFEC2031EB710056334D /* AppDelegate.swift */,
 				C41DBFEE2031EB710056334D /* ViewController.swift */,
+				C484F2BF2035C586001B8C45 /* PageViewController.swift */,
+				C4D8F94E203727C400B336C2 /* pvMusicController.swift */,
+				C4D8F94C2037279000B336C2 /* pvActivityController.swift */,
+				C484F2C52035E29C001B8C45 /* pvMessageController.swift */,
+				C446D986203C61A500BA7B33 /* LoadingViewController.swift */,
+				C460FCBA204D777400146467 /* MusicViewController.swift */,
+				C4AC17112052783F009FB1F9 /* MusicListView */,
+				C446D981203BC89800BA7B33 /* Personal */,
 				C41DBFF02031EB710056334D /* Main.storyboard */,
 				C41DBFF32031EB710056334D /* Assets.xcassets */,
 				C41DBFF52031EB710056334D /* LaunchScreen.storyboard */,
@@ -125,6 +185,25 @@
 			path = playerUITests;
 			sourceTree = "<group>";
 		};
+		C446D981203BC89800BA7B33 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				C4D8F94A2037267F00B336C2 /* pvPersonalController.swift */,
+				C45B139D203B10ED00417021 /* newCell.swift */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		C4AC17112052783F009FB1F9 /* MusicListView */ = {
+			isa = PBXGroup;
+			children = (
+				C45CF22F20515BCC00C1E9C6 /* MusicListViewController.swift */,
+				C4AC17142052C63A009FB1F9 /* MusicTableViewCell.swift */,
+				C4AC17122052786C009FB1F9 /* MusicInfoModel.swift */,
+			);
+			path = MusicListView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C41DC0112031EB710056334D /* Build configuration list for PBXNativeTarget "player" */;
 			buildPhases = (
+				EAADEB59FCBA7FCC98A0EF71 /* [CP] Check Pods Manifest.lock */,
 				C41DBFE52031EB710056334D /* Sources */,
 				C41DBFE62031EB710056334D /* Frameworks */,
 				C41DBFE72031EB710056334D /* Resources */,
+				B43459A75CD2AAFD72467CB1 /* [CP] Embed Pods Frameworks */,
+				F370938D4370A919C47951F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +316,8 @@
 			files = (
 				C41DBFF72031EB710056334D /* LaunchScreen.storyboard in Resources */,
 				C41DBFF42031EB710056334D /* Assets.xcassets in Resources */,
+				C45CF1F02050220F00C1E9C6 /* song.lrc in Resources */,
+				C4248E9E204EC60A00615C10 /* Green Light.mp3 in Resources */,
 				C41DBFF22031EB710056334D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +338,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B43459A75CD2AAFD72467CB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-player/Pods-player-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-player/Pods-player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAADEB59FCBA7FCC98A0EF71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F370938D4370A919C47951F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-player/Pods-player-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C41DBFE52031EB710056334D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C484F2C02035C586001B8C45 /* PageViewController.swift in Sources */,
+				C4AC17132052786C009FB1F9 /* MusicInfoModel.swift in Sources */,
+				C4D8F94B2037267F00B336C2 /* pvPersonalController.swift in Sources */,
+				C45B139E203B10ED00417021 /* newCell.swift in Sources */,
 				C41DBFEF2031EB710056334D /* ViewController.swift in Sources */,
 				C41DBFED2031EB710056334D /* AppDelegate.swift in Sources */,
+				C4D8F94F203727C400B336C2 /* pvMusicController.swift in Sources */,
+				C460FCBB204D777400146467 /* MusicViewController.swift in Sources */,
+				C4D8F94D2037279000B336C2 /* pvActivityController.swift in Sources */,
+				C484F2C62035E29C001B8C45 /* pvMessageController.swift in Sources */,
+				C45CF23020515BCC00C1E9C6 /* MusicListViewController.swift in Sources */,
+				C4AC17152052C63A009FB1F9 /* MusicTableViewCell.swift in Sources */,
+				C446D987203C61A500BA7B33 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +579,7 @@
 		};
 		C41DC0122031EB710056334D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9E1E9C80EA02CD22AE1345 /* Pods-player.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +595,7 @@
 		};
 		C41DC0132031EB710056334D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D253AFFD67936BC1602935 /* Pods-player.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -16,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //空视图
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window!.backgroundColor = UIColor.white
+        //背景颜色
+//        UINavigationBar.appearance().tintColor = UIColor.white
+       //标题文字颜色
+//        UIApplication.shared.statusBarStyle = .lightContent
+        UINavigationBar.appearance().barTintColor = UIColor.white
+        //指定根视图
+        let rootView = PageViewController()
+        self.window!.rootViewController = rootView
+        self.window!.makeKeyAndVisible()
         return true
     }
 
